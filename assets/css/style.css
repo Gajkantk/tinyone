@@ -1,0 +1,293 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	
+}
+
+
+/*############# Helper css ######## */
+
+body{
+	line-height:1.5;
+}
+ul{
+	list-style:none;
+	
+}
+
+a:link, a:visited{
+	text-decoration:none;
+	color:black;
+}
+
+.text-center{
+	text-align:center;
+}
+.container{
+	width:1100px;
+	margin: 0 auto;
+	
+}
+
+.headSection{
+	background-color:#fcdb00;
+	padding:60px 0 100px;
+}
+ 
+
+.row, .row::after, .row::before{
+	display:table;
+	width:100%;
+	clear:both;
+}
+
+[class^="col-"]{
+	 /* border:2px solid black; */
+	float:left;
+	padding:0 15px;
+}
+
+.col-3{
+	width: calc(100% * 3 / 12)
+}
+
+.col-6{
+	width: calc(100% * 6 / 12);
+}
+
+.col-5 {
+	width: calc(100% * 5 / 12);
+}
+
+.col-2 {
+	width: calc(100% * 2 / 12);
+}
+
+.col-1{
+	width: calc(100% * 1 / 12);
+}
+
+.col-7{
+	width: calc(100% * 7 / 12);
+}
+
+.col-4{
+	width: calc(100% * 4 / 12);
+	
+}
+
+.col-3{
+	width: calc(100% * 3 / 12);
+	
+}
+
+.col-9{
+	width: calc(100% * 9 / 12);
+	
+}
+
+
+.col-10{
+	width: calc(100% * 10 / 12);
+	
+	
+}
+
+
+.col-1{
+	width: calc(100% * 1 / 12);
+	
+	
+}
+
+
+.mb-60{
+	margin-bottom:60px;
+	
+}
+
+.mb-65{
+	margin-bottom:65px;
+}
+/*######### section header css ########## */
+.pre-heading{
+	font-size:32px;
+	color:#010101;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+
+.sec-heading{
+	color:#313841;
+	font-size:20px;
+	margin-bottom:25px;
+	
+}
+
+.para{
+	color:#555555;
+	font-size:16px;
+	margin-bottom:40px;
+	
+}
+.navbar ul{
+	list-style:none;
+	display:inline-block;
+	
+}
+
+.navbar ul li{
+	display:inline-block;
+	margin:0 20px;
+}
+
+.navbar ul li a{
+	text-decoration:none;
+}
+
+.logo{
+	display:inline-block;
+	height:42px;
+	line-height:42px;
+}
+
+.navbar ul li a:link, .navbar ul li a:visited{
+	color:#010101;
+	text-align:right;
+	font-size:22px;
+	padding: 0px 15px;
+	text-transform:capitalize;
+	transition:all .3s ease;
+	height:42px;
+	line-height:42px;
+	display:inline-block;
+	  
+}
+nav .navbar{
+	text-align: right;
+}
+
+.navbar ul li:last-child{
+	margin-right:0;
+}
+
+.inspiration{
+	margin-top:70px;
+}
+.navbar ul li a:hover,.navbar ul li a:focus, .navbar ul li a:visited{
+	background-color:#010101;
+	color:#fcdb00;
+	border-radius:3px;
+}
+
+.brands li{
+	display:inline-block;
+	margin-left:40px;	
+color:white;	
+}
+
+.headSection .brands li{
+	margin-left:40px;
+	
+}
+
+/* ########## Feature section css ######### */
+
+.features{
+	
+	padding:120px 0 80px;
+}
+
+.thumbInfo >p{
+	color:#898989;
+	font-size:16px;
+	/* line-height:24px; */
+}
+
+.thumbInfo >h3{
+	font-size:22px;
+	font-weight:bold;
+	color:#010101;
+	margin-bottom:15px;
+	
+	
+}
+
+.thumbnail{
+	margin-bottom:80px;
+}
+
+/* ######### ContectSection ############### */
+
+
+
+
+.contactSection{
+	
+	background-color:#010101;
+	padding:90px 0 140px;
+}
+
+.contactSection .pre-heading{
+	color:#fcdb00;
+}
+
+.contactSection .sec-heading{
+	margin-bottom:40px;
+	color:#898989;
+}
+
+.btn-primary,.email{
+	height:50px;
+	border-radius:5px;
+	
+}
+ 
+ .btn-primary{
+	background-color:#fcdb00;
+	color:#010101;	
+	text-transform:uppercase;
+	/* padding: 0 35px; */
+	cursor:pointer;
+	font-weight:bold;
+	font-size:16px;
+	margin-left:20px;
+	width:125px;
+	text-align:center;
+	
+ }
+ .form-group{
+	 margin-bottom:75px;
+ }
+ 
+ .email{
+	 width: calc(100% - 150px );
+	 padding: 0 25px;
+ }
+ 
+ .email::placeholder{
+	 color:#898989;
+ }
+ 
+ .contactSection .brands  a:link,  .contactSection .brands  a:visited{
+	 
+	 color: #fcdb00;
+ }
+ 
+ .address li,  .address li a:link,.address li a:visited{
+	 color:white;
+ }
+ 
+  .address li a:link,.address li a:visited{
+	  text-transform:capitalize;
+	  
+  }
+  
+ /* .contactSection .brans{ */
+ /* margin-bottom:100px; */
+ /* } */
+ 
+.footerSection.mb-135{
+	 margin-top:135px;
+ }
